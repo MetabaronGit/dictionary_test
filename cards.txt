@@ -1,0 +1,18 @@
+{"Basic": {"Ammo supply":{"type":"event",
+		   "actions":{"get_munition":{"power":3},
+			          "get_command":{"power":1}
+			         }
+		                 },
+	       "Combat maneuver":{"type":"action",
+		                      "actions":{"get_attack_bonus":{"power":2},
+			                             "get_command":{"power":1}
+			                            }
+		                     },
+	       "Training drone TD-1":{"type":"enemy",
+				                  "hp":3,
+		                          "actions":{"fire":{"price_type":"munition", "power":2, "damage":"kill"},
+			                                 "attack":True
+			                                }
+			                     }
+	       }
+}
